@@ -144,7 +144,7 @@ sequenceDiagram
         Cn->>S: POST /upload (quantised Δₙ)
         S->>S: EMAM(θ, {Δₖ})
     end
-    Note over S: θ updates online; clients never block
+    Note over S: θ updates online; 
 ```
 
 ---
